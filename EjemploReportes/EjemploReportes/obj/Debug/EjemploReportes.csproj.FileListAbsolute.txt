@@ -1,0 +1,12 @@
+c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\bin\Debug\EjemploReportes.exe.config
+c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\bin\Debug\EjemploReportes.exe
+c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\bin\Debug\EjemploReportes.pdb
+c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\obj\Debug\EjemploReportes.csprojResolveAssemblyReference.cache
+c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\obj\Debug\EjemploReportes.Form1.resources
+c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\obj\Debug\EjemploReportes.Properties.Resources.resources
+c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\obj\Debug\EjemploReportes.reporteGuarda.resources
+c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\obj\Debug\EjemploReportes.csproj.GenerateResource.Cache
+c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\obj\Debug\RdlCompile.cache
+c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\obj\Debug\RdlCompile.compiled
+c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\obj\Debug\EjemploReportes.exe
+c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\obj\Debug\EjemploReportes.pdb
