@@ -31,6 +31,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteGuardasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reporteVehiculosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reporteVehiculoMasComparendoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,11 +45,14 @@
             this.menuStrip1.Size = new System.Drawing.Size(583, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // reportesToolStripMenuItem
             // 
             this.reportesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.reporteGuardasToolStripMenuItem});
+            this.reporteGuardasToolStripMenuItem,
+            this.reporteVehiculosToolStripMenuItem,
+            this.reporteVehiculoMasComparendoToolStripMenuItem});
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.reportesToolStripMenuItem.Text = "Reportes";
@@ -58,6 +63,19 @@
             this.reporteGuardasToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.reporteGuardasToolStripMenuItem.Text = "Reporte Guardas";
             this.reporteGuardasToolStripMenuItem.Click += new System.EventHandler(this.reporteGuardasToolStripMenuItem_Click);
+            // 
+            // reporteVehiculosToolStripMenuItem
+            // 
+            this.reporteVehiculosToolStripMenuItem.Name = "reporteVehiculosToolStripMenuItem";
+            this.reporteVehiculosToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.reporteVehiculosToolStripMenuItem.Text = "Reporte Vehiculos";
+            this.reporteVehiculosToolStripMenuItem.Click += new System.EventHandler(this.reporteVehiculosToolStripMenuItem_Click);
+            // 
+            // reporteVehiculoMasComparendoToolStripMenuItem
+            // 
+            this.reporteVehiculoMasComparendoToolStripMenuItem.Name = "reporteVehiculoMasComparendoToolStripMenuItem";
+            this.reporteVehiculoMasComparendoToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.reporteVehiculoMasComparendoToolStripMenuItem.Text = "Reporte Vehiculo mas comparendo";
             // 
             // Form1
             // 
@@ -81,6 +99,8 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reporteGuardasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reporteVehiculosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reporteVehiculoMasComparendoToolStripMenuItem;
     }
 }
 

@@ -10,3 +10,4 @@ c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploRep
 c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\obj\Debug\RdlCompile.compiled
 c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\obj\Debug\EjemploReportes.exe
 c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\obj\Debug\EjemploReportes.pdb
+c:\users\alvaro\documents\visual studio 2013\Projects\EjemploReportes\EjemploReportes\obj\Debug\EjemploReportes.reporteVehiculo.resources

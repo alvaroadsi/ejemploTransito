@@ -55,16 +55,33 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reporteComparendo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reporteComparendo.Designer.cs">
+      <DependentUpon>reporteComparendo.cs</DependentUpon>
+    </Compile>
     <Compile Include="reporteGuarda.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="reporteGuarda.Designer.cs">
       <DependentUpon>reporteGuarda.cs</DependentUpon>
     </Compile>
+    <Compile Include="reporteVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reporteVehiculo.Designer.cs">
+      <DependentUpon>reporteVehiculo.cs</DependentUpon>
+    </Compile>
     <Compile Include="transitoDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>transitoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="transitoDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>transitoDataSet2.xsd</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -79,9 +96,16 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="reporteComparendo.resx">
+      <DependentUpon>reporteComparendo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="reporteGuarda.resx">
       <DependentUpon>reporteGuarda.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="reporteVehiculo.resx">
+      <DependentUpon>reporteVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteVehiculos.rdlc" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -101,6 +125,17 @@
     </None>
     <None Include="transitoDataSet.xss">
       <DependentUpon>transitoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="transitoDataSet2.xsc">
+      <DependentUpon>transitoDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="transitoDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>transitoDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="transitoDataSet2.xss">
+      <DependentUpon>transitoDataSet2.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
